@@ -1,0 +1,82 @@
+body, html {
+    margin: 0;
+    font-family: 'Work Sans', sans-serif;
+    text-align: center;
+    background: #B2DFDB;
+    color: #004D40;
+}
+
+h1 {
+    margin: 0;
+    padding: 0 0 0 20px;
+    font-size: 70px;
+    text-align: left;
+    background: #00695C;
+    color: #E0F2F1;
+}
+
+h2 {
+    margin: 1em 0 0.25em;
+}
+
+h2:first-of-type {
+    margin-top: 0.5em;
+}
+
+table,
+tr,
+td {
+    border: 1.5px solid black;
+}
+
+table {
+    border-collapse: collapse;
+    margin: 0 auto;
+}
+
+tr {
+    height: 20px;
+}
+
+td {
+    width: 20px;
+}
+
+input[type=number] {
+    width: 5em;
+}
+
+img {
+    vertical-align: top;
+}
+
+.interactive {
+    margin: 20px 20px
+}
+
+.canvas {
+    padding-top: 10px;
+    min-height: 600px;
+    background: #E0F2F1;
+    border: dashed 10px #00BFA5;
+}
+
+#inputHeight, #inputWidth {
+    padding: 1px;
+}
+
+label {
+    font-weight: bold;
+    font-size: 18px;
+}
+
+#colorPicker:hover, 
+#submitButton:hover, 
+#clearButton:hover {
+    box-shadow: 0 3px 3px 0 rgba(0,0,0,0.24), 0 3px 3px 0 rgba(0,0,0,0.19);
+}
+
+#submitButton {
+    width: 100px;
+}
+
