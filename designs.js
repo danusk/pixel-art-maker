@@ -36,6 +36,11 @@ $(document).ready(function() {
 		$(this).css('background-color', color.val());	
 	});
 
+	//Remove color on double click
+  	grid.on('dblclick', 'td', function changeColor() {
+		$(this).css('background-color', 'transparent');
+	});
+
 	// Check if mousedown is true or false for dragging to fill
 	grid.on('mousedown', function() {
 		mouseDown = true;
